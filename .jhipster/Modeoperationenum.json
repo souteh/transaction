@@ -1,0 +1,30 @@
+{
+  "name": "Modeoperationenum",
+  "fields": [
+    {
+      "fieldName": "automatique",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "254"
+    },
+    {
+      "fieldName": "manuel",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "254"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200618004220",
+  "entityTableName": "modeoperationenum",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "transaction",
+  "applications": "*",
+  "microserviceName": "transaction"
+}
