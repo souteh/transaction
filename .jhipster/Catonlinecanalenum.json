@@ -1,0 +1,34 @@
+{
+  "name": "Catonlinecanalenum",
+  "fields": [
+    {
+      "fieldName": "pel",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "maxlength"
+      ],
+      "fieldValidateRulesMaxlength": "254"
+    },
+    {
+      "fieldName": "ptel",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "maxlength"
+      ],
+      "fieldValidateRulesMaxlength": "254"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200618004817",
+  "entityTableName": "catonlinecanalenum",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "transaction",
+  "applications": "*",
+  "microserviceName": "transaction"
+}
